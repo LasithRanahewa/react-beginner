@@ -1,12 +1,7 @@
-import Navbar from "../components/header/Navbar";
+import StandardLayout from "../components/layout/StandardLayout";
 
 function Home() {
-  return (
-    <div>
-      <Navbar />
-      Home
-    </div>
-  );
+  return <StandardLayout>Home</StandardLayout>;
 }
 
 export default Home;

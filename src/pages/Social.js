@@ -1,9 +1,7 @@
-import React from 'react'
+import StandardLayout from "../components/layout/StandardLayout";
 
 function Social() {
-  return (
-    <div>Social</div>
-  )
+  return <StandardLayout>Social</StandardLayout>;
 }
 
-export default Social
+export default Social;

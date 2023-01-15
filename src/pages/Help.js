@@ -1,9 +1,7 @@
-import React from 'react'
+import StandardLayout from "../components/layout/StandardLayout";
 
 function Help() {
-  return (
-    <div>Help</div>
-  )
+  return <StandardLayout>Help</StandardLayout>;
 }
 
-export default Help
+export default Help;

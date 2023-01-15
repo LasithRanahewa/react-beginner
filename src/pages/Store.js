@@ -1,9 +1,7 @@
-import React from 'react'
+import StandardLayout from "../components/layout/StandardLayout";
 
 function Store() {
-  return (
-    <div>Store</div>
-  )
+  return <StandardLayout>Store</StandardLayout>;
 }
 
-export default Store
+export default Store;
