@@ -1,10 +1,10 @@
-import TestComponents from "../components/TestComponents";
+import Navbar from "../components/header/Navbar";
 
 function Home() {
   return (
     <div>
+      <Navbar />
       Home
-      <TestComponents />
     </div>
   );
 }
