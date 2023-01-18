@@ -1,7 +1,13 @@
 import StandardLayout from "../components/layout/StandardLayout";
 import StandardContainer from "../components/containers/StandardContainer";
+import StandardCaurosel from "../components/caurosels/StandardCaurosel";
 
 import MainBanner from "../components/banners/MainBanner";
+
+// Caurosel images
+import cimg1 from "../images/movies/emancipation.jpg";
+import cimg2 from "../images/movies/slow-horses.jpg";
+import cimg3 from "../images/movies/spirited.png";
 
 //images
 import img1 from "../images/iphone-se.jpg";
@@ -34,13 +40,29 @@ const DATA = [
   },
 ];
 
+const CAOURSAL_DATA = [
+  {
+    image: cimg1,
+    imageAlt: "emancipation",
+  },
+  {
+    image: cimg2,
+    imageAlt: "slow-horses",
+  },
+  {
+    image: cimg3,
+    imageAlt: "spirited",
+  },
+];
+
 function Home() {
   return (
     <StandardLayout>
       <MainBanner />
       <div className="grid grid-cols-2">
-        {DATA.map((item) => (
+        {DATA.map((item, index) => (
           <StandardContainer
+            key={index}
             title={item.title}
             description={item.description}
             image={item.image}
@@ -48,6 +70,7 @@ function Home() {
           />
         ))}
       </div>
+      <StandardCaurosel data={CAOURSAL_DATA} />
     </StandardLayout>
   );
 }
