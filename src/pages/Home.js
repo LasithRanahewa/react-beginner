@@ -46,19 +46,22 @@ const CAOURSAL_DATA = [
     imageAlt: "emancipation",
   },
   {
-    image: cimg2,
-    imageAlt: "slow-horses",
-  },
-  {
     image: cimg3,
     imageAlt: "spirited",
+  },
+  {
+    image: cimg2,
+    imageAlt: "slow-horses",
   },
 ];
 
 function Home() {
   return (
     <StandardLayout>
+      {/* Main Banner */}
       <MainBanner />
+
+      {/* Box components */}
       <div className="grid grid-cols-2">
         {DATA.map((item, index) => (
           <StandardContainer
@@ -70,7 +73,27 @@ function Home() {
           />
         ))}
       </div>
+
+      {/* Carousel */}
       <StandardCaurosel data={CAOURSAL_DATA} />
+
+      {/* Page content */}
+      <div className="bg-gray-200">
+        <p className="px-[200px] py-5 text-sm text-gray-500">
+          Quis proident reprehenderit aliqua ad sunt. Magna do Lorem adipisicing
+          reprehenderit nostrud eu reprehenderit esse ullamco voluptate
+          exercitation eu quis commodo. Sint incididunt tempor anim Lorem magna
+          anim deserunt et ullamco sunt sint magna.Officia anim veniam laboris
+          nisi voluptate aliquip eiusmod do consectetur ea. Culpa officia
+          pariatur velit occaecat exercitation deserunt ullamco pariatur aliqua
+          et ea. Ad sit est sit commodo officia reprehenderit mollit nisi
+          adipisicing mollit dolor cupidatat elit fugiat. Do sit proident culpa
+          ullamco aliqua commodo quis non nisi esse.Sit et minim mollit
+          incididunt velit enim tempor adipisicing sunt cupidatat excepteur
+          veniam. Et quis culpa reprehenderit culpa. Culpa officia laborum sint
+          proident eu ea ex dolor deserunt deserunt.
+        </p>
+      </div>
     </StandardLayout>
   );
 }
