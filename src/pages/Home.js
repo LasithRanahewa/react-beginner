@@ -3,6 +3,8 @@ import StandardLayout from "../components/layout/StandardLayout";
 import StandardContainerGroup from "../components/containers/StandardContainerGroup";
 import StandardCaurosel from "../components/caurosels/StandardCaurosel";
 
+import LinkGroup from "../links/LinkGroup";
+
 import MainBanner from "../components/banners/MainBanner";
 
 // Caurosel images
@@ -81,6 +83,8 @@ function Home() {
 
       {/* Page content */}
       <div className="bg-gray-200">
+
+        {/* Main Content */}
         <p className="px-[200px] py-5 text-sm text-gray-500">
           Quis proident reprehenderit aliqua ad sunt. Magna do Lorem adipisicing
           reprehenderit nostrud eu reprehenderit esse ullamco voluptate
@@ -100,6 +104,9 @@ function Home() {
           cupidatat excepteur veniam. Et quis culpa reprehenderit culpa. Culpa
           officia laborum sint proident eu ea ex dolor deserunt deserunt.
         </p>
+
+        {/* Sub Links */}
+        <LinkGroup />
       </div>
     </StandardLayout>
   );
