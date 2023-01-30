@@ -83,7 +83,6 @@ function Home() {
 
       {/* Page content */}
       <div className="bg-gray-200">
-
         {/* Main Content */}
         <p className="px-[200px] py-5 text-sm text-gray-500">
           Quis proident reprehenderit aliqua ad sunt. Magna do Lorem adipisicing
@@ -93,16 +92,23 @@ function Home() {
           fugiat. Do sit proident culpa ullamco aliqua commodo quis non nisi
           esse.Sit et minim mollit incididunt velit enim tempor adipisicing sunt
           cupidatat excepteur veniam. Et quis culpa reprehenderit culpa. Culpa
-          officia laborum sint proident eu ea ex dolor deserunt deserunt. Sint
-          incididunt tempor anim Lorem magna anim deserunt et ullamco sunt sint
-          magna.Officia anim veniam laboris nisi voluptate aliquip eiusmod do
-          consectetur ea. Culpa officia pariatur velit occaecat exercitation
-          deserunt ullamco pariatur aliqua et ea. Ad sit est sit commodo officia
-          reprehenderit mollit nisi adipisicing mollit dolor cupidatat elit
-          fugiat. Do sit proident culpa ullamco aliqua commodo quis non nisi
-          esse.Sit et minim mollit incididunt velit enim tempor adipisicing sunt
-          cupidatat excepteur veniam. Et quis culpa reprehenderit culpa. Culpa
-          officia laborum sint proident eu ea ex dolor deserunt deserunt.
+          officia laborum sint proident eu ea ex dolor deserunt deserunt.Culpa
+          officia pariatur velit occaecat exercitation deserunt ullamco pariatur
+          aliqua et ea. Ad sit est sit commodo officia reprehenderit mollit nisi
+          adipisicing mollit dolor cupidatat elit fugiat. Do sit proident culpa
+          ullamco aliqua commodo quis non nisi esse.Sit et minim mollit
+          incididunt velit enim tempor adipisicing sunt cupidatat excepteur
+          veniam. Et quis culpa reprehenderit culpa. Culpa officia laborum sint
+          proident eu ea ex dolor deserunt deserunt. Sint incididunt tempor anim
+          Lorem magna anim deserunt et ullamco sunt sint magna.Officia anim
+          veniam laboris nisi voluptate aliquip eiusmod do consectetur ea. Culpa
+          officia pariatur velit occaecat exercitation deserunt ullamco pariatur
+          aliqua et ea. Ad sit est sit commodo officia reprehenderit mollit nisi
+          adipisicing mollit dolor cupidatat elit fugiat. Do sit proident culpa
+          ullamco aliqua commodo quis non nisi esse.Sit et minim mollit
+          incididunt velit enim tempor adipisicing sunt cupidatat excepteur
+          veniam. Et quis culpa reprehenderit culpa. Culpa officia laborum sint
+          proident eu ea ex dolor deserunt deserunt.
         </p>
 
         {/* Sub Links */}
